@@ -9,7 +9,7 @@ You need to get GCP authentification credentials in Json format. To do so, follo
 
 - To inference a deployed vertex AI using gcp_inference.py defined in this repository:
 
-```
+```python
 from gcp_inference import authentificate_GCP, create_instance, predict_custom_trained_model_sample
 model_name = "gemma-2b-it"
 client = authentificate_GCP(model_name)
